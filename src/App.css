@@ -1,0 +1,26 @@
+/** @format */
+
+* {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.sortable-table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ccc; /* Add a border to the table */
+}
+
+.sortable-table th,
+.sortable-table td {
+  border: 1px solid #ccc; /* Add borders to table cells */
+  padding: 8px;
+  text-align: left;
+}
+
+.sortable-table th {
+  background-color: #575656; /* Add a background color to table headers */
+  cursor: pointer;
+}
